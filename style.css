@@ -1,0 +1,115 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121214; /* Fundo cinza bem escuro */
+    color: #e1e1e6; /* Texto claro */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+/* Menu de Navegação (Cabeçalho) */
+header {
+    background-color: #19191c;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #8257e5; /* Linha roxa */
+}
+
+header h1 {
+    font-size: 24px;
+    color: #8257e5;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #04d361; /* Verde sapo neon */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff; /* Fica branco ao passar o mouse */
+}
+
+/* Seções do Site */
+section {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #1f2024; /* Caixas um pouco mais claras que o fundo */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #8257e5;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #29292e;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* O famoso Botão Ez */
+button {
+    background-color: #04d361;
+    color: #121214;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #00ff66;
+    transform: scale(1.05); /* Aumenta um pouquinho ao passar o mouse */
+}
+
+/* Estilo do Sapo (Baseado na sua imagem do VS Code!) */
+.sobre-foto {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.sobre-foto img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; /* Deixa a foto redonda */
+    border: 3px solid #04d361; /* Borda verde ao redor do sapo */
+}
+
+/* Lista de Integrantes */
+ul {
+    list-style: none; /* Tira as bolinhas padrões */
+}
+
+li {
+    background-color: #29292e;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #8257e5; /* Detalhe roxo na esquerda */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7c7c8a;
+    font-size: 14px;
+}
